@@ -1,0 +1,52 @@
+{
+  "name": "vue-easy-google-autocomplete",
+  "author": "Guilherme Luis Faustino <contato@guilhermeluis.com>",
+  "homepage": "https://github.com/iguilhermeluis/vue-easy-google-autocomplete#readme",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple and easy-to-use Vue 3 component for Google Places Autocomplete, with customizable hooks and debouncing.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -p tsconfig.json --declaration && vite build",
+    "preview": "vite preview",
+    "main": "./dist/vue-easy-google-autocomplete.es.js",
+    "module": "dist/vue-easy-google-autocomplete.umd.js"
+  },
+  "main": "dist/vue-easy-google-autocomplete.umd.js",
+  "module": "dist/vue-easy-google-autocomplete.es.js",
+  "unpkg": "dist/vue-easy-google-autocomplete.umd.js",
+  "dependencies": {
+    "vue": "^3.4.37"
+  },
+  "bugs": {
+    "url": "https://github.com/iguilhermeluis/vue-easy-google-autocomplete/issues"
+  },
+  "keywords": [
+    "vue",
+    "vue 3",
+    "google places",
+    "autocomplete",
+    "google maps",
+    "places api",
+    "autocomplete component",
+    "vue component",
+    "vue autocomplete"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google.maps": "^3.58.1",
+    "@types/node": "^22.7.4",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "prettier": "3.3.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iguilhermeluis/vue-easy-google-autocomplete.git"
+  }
+}
